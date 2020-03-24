@@ -1,6 +1,5 @@
-require "somecache/version"
+require 'somecache/version'
+require 'somecache/custom'
 
 module Somecache
-  class Error < StandardError; end
-  # Your code goes here...
 end

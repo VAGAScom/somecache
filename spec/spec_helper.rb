@@ -1,5 +1,6 @@
 require "bundler/setup"
 require "somecache"
+require "active_support"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
