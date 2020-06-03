@@ -42,9 +42,7 @@ ProductCache = Somecache::Custom.new(namespace: 'products' , cache: Rails.cache,
 ProductCache.fetch(product_id) { Product.find(product_id) }
 
 # Some Worker
-
 ProductCache.delete(product_id)
-
 ```
 
 ## Development
